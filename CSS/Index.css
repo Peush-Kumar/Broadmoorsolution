@@ -78,8 +78,8 @@
 }
 #Color{
     background-color: #8DC63F;;
-    height: 5px;
-    width: 100px;
+    height: 1px;
+    width: 90px;
     border: 1px solid #8DC63F;
     border-radius: 10px;
 }
@@ -89,6 +89,24 @@
     align-items: center;
     
 }
-#Mission-Section-1>#Color{
-    margin-right: 20px;
+#Mission-Section-1>div>h3{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight:900;
+    font-size: 21px;
+}
+#Mission-Section-1-part-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+#Paragraph-2{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #252634;
+
+
 }
