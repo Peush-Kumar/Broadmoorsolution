@@ -1,0 +1,45 @@
+#Navbar{
+    background: none !important;
+}
+#Logo{
+    width: 20%;
+    height: 65%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#Links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    color: pink !important;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+#People{
+    width: 100%;
+    height: 90vh;
+    padding: 00px;
+    position: relative;    
+}
+#People>img{
+    width: 100%;
+    height: 100%;
+}
+#People>h2{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+}
+#People>p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 300px ;
+    left: 120px;
+}

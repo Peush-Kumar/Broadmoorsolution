@@ -1,0 +1,52 @@
+/* Custom styles for the navbar */
+.navbar-custom {
+    background-color: #FFFFFF;
+}
+
+.navbar-custom .nav-item .nav-link {
+    color: #252634;
+    transition: color 0.2s;
+}
+
+.navbar-custom .nav-item .nav-link:hover {
+    color: #8DC63F;
+}
+
+/* Custom styles for the dropdown on hover */
+.navbar-custom .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-custom .dropdown-menu {
+    transition: display 0.2s;
+}
+
+/* Remove blue color highlight when clicking dropdown items */
+.navbar-custom .dropdown-item:focus {
+    background-color: transparent;
+}
+
+/* Custom styles for the hover state of dropdown items */
+.navbar-custom .dropdown-item:hover {
+    color: #8DC63F; /* Change to the desired color for hover */
+}
+#Navbar{
+    background: none !important;
+}
+#Logo{
+    width: 20%;
+    height: 65%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#Links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    color: pink !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 50px;
+}
