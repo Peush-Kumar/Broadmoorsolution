@@ -17,17 +17,20 @@
     font-weight: 600;
     margin-right: 50px;
 }
-#People{
+#Main-Contact-Section{
+    padding: 00px;
+}
+#Section-1{
     width: 100%;
     height: 90vh;
-    padding: 00px;
     position: relative;    
 }
-#People>img{
+#Section-1>img{
     width: 100%;
     height: 100%;
+    
 }
-#People>h2{
+#Section-1>h2{
     font-family: 'Oswald', sans-serif;
     position: absolute;
     top: 150px;
@@ -36,10 +39,56 @@
     color: white;
     text-transform: capitalize;
 }
-#People>p{
+#Section-1>#Paragraph-1{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     position: absolute;
     top: 300px ;
     left: 120px;
+    color: white;
+    font-weight: 400;
+}
+#Section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#Section-2>p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: 252634;
+}
+#Section-2-part-1{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 25.2px;
+    color: 252634;
+}
+#Section-2-part-2{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#Mission-Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Color{
+    background-color: #8DC63F;;
+    height: 5px;
+    width: 100px;
+    border: 1px solid #8DC63F;
+    border-radius: 10px;
+}
+#Mission-Section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#Mission-Section-1>#Color{
+    margin-right: 20px;
 }
