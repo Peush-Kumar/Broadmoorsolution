@@ -76,30 +76,21 @@
     align-items: center;
     justify-content: center;
 }
-#Color{
+.Color{
     background-color: #8DC63F;;
     height: 1px;
     width: 90px;
     border: 1px solid #8DC63F;
     border-radius: 10px;
 }
-#Mission-Section-1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
 #Mission-Section-1>div>h3{
-    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    font-weight:900;
     font-size: 21px;
 }
-#Mission-Section-1-part-1{
+#Mission-Section-1-part-1-category-1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     
 }
 #Paragraph-2{
@@ -109,4 +100,41 @@
     color: #252634;
 
 
+}
+#Part-2{
+    width: 40%;
+    height: 40vh;
+}
+#Part-2>img{
+    width: 100%;
+    height: 100%;
+}
+#Mission-Section-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+#hr-1{
+}
+#Work-part-2{
+    display: flex;
+    flex-direction: row;
+}
+.Color-1{
+    background-color: #8DC63F;;
+    height: 1px;
+    width: 190px;
+    border: 1px solid #8DC63F;
+    border-radius: 10px;
+
+ 
+    
 }

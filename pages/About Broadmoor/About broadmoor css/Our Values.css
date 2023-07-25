@@ -1,0 +1,23 @@
+#Value-Section{
+    padding: 100px 100px 00px 100px;
+}
+.Paragraph-1-1>h2{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #62646C;
+    font-weight: 700;
+}
+.img-2{
+    width: 42%;
+    height: 35vh;
+}
+.img-2>img{
+    width: 100%;
+    height: 100%;
+   
+}
+.Paragraph-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

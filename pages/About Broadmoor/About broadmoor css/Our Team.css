@@ -1,0 +1,42 @@
+
+#Team-Section{
+    padding: 100px 100px 00px 100px;
+}
+.color{
+    background-color: #8DC63F;;
+    height: 1px;
+    width: 90px;
+    border: 1px solid #8DC63F;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.main>h3{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 700;
+    color: #252634;
+    
+}
+.Paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.Paragraph>div>h2{
+    font-size: 14px;
+    color: #62646C;
+}.Paragraph>div>p{
+    color: #8A8C98;
+}
+.Paragraph>img{
+    width: 13%;
+    height: 20vh;
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
