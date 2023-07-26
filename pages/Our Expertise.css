@@ -1,0 +1,32 @@
+#Pargraph-Section{
+    padding: 50px 100px 00px 100px;
+}
+#Pargraph-Section>p{
+   font-size: 14px;
+    color: #8A8C98;
+    line-height: 2;
+}
+.Color-Section{
+    background-color: #8DC63F;;
+    height: 100px;
+    width: 90px;
+    border: 1px solid #8DC63F;
+    border-radius: 10px;
+}
+#Color{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    animation-name: Peush;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+@keyframes Peush {
+    from{
+        width: 200px;
+    }
+    to{
+        width: 400px;
+    }
+}
