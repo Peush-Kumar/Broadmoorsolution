@@ -18,15 +18,4 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    animation-name: Peush;
-    animation-duration: 5s;
-    animation-iteration-count: 5;
-}
-@keyframes Peush {
-    from{
-        width: 200px;
-    }
-    to{
-        width: 400px;
-    }
 }
