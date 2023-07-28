@@ -144,3 +144,44 @@
 .Part{
     padding-left: 130px;
 }
+
+.slider-container {
+    width: 80%;
+    overflow: hidden;
+    padding: 20px 00px 20px 00px; 
+    width: 65%;
+
+  }
+  
+  .slider {
+    position: relative;
+    width: 100%;
+  }
+  
+  .slider-inner {     
+    display: flex;
+    transition: transform 0.3s ease;
+    height: 25vh;
+    width: 100%;     
+  }
+  
+  .slider img {
+    width: 33.33%; /* Each image occupies one-third of the slider container */
+    height: auto;
+  }
+  .img{
+    border: 1px solid #8A8C98;
+    margin-left: 10px;
+  }
+  #Slider-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+  }
+  
