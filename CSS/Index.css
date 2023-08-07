@@ -1,187 +1,197 @@
-#Navbar{
-    background: none !important;
-}
-#Logo{
-    width: 20%;
-    height: 65%;
-    margin-top: 20px;
-    margin-left: 60px;
-}
-#Links{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    color: pink !important;
-    font-size: 14px;
-    font-weight: 600;
-    margin-right: 50px;
-}
-#Main-Contact-Section{
-    padding: 00px;
-}
-#Section-1{
-    width: 100%;
+#Image-Section {
+    background-image: url(../Images/5\ People.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     height: 90vh;
-    position: relative;    
-}
-#Section-1>img{
-    width: 100%;
-    height: 100%;
-    
-}
-#Section-1>h2{
-    font-family: 'Oswald', sans-serif;
-    position: absolute;
-    top: 150px;
-    left: 120px;
-    font-size: 50px;
-    color: white;
-    text-transform:capitalize;
-}
-#Section-1>p{
-    position: absolute;
-    top: 280px;
-    left: 120px;
-    color: white;
 
 }
-.Section-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5%;
+
+#Image-Section>h1 {
+    margin: 130px 100px 00px 95px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    line-height: 75px;
+    font-size: 48px;
 }
-.Section-2>div>p{
-    color: #252634;
-    font-size: 20px;
-    font-weight: 500;
+
+#Image-Section>p {
+    margin: 10px 100px 100px 95px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
-#Part-2>h3{
-    font-family: 'Dawning of a New Day', cursive;
+
+#Navbar {
+    padding: 25px 20px 20px 25px;
+    background-color: none !important;
+    background: none !important;
+    outline: none !important;
+
 }
-#Part-3>h5{
-    color: #8A8C98;
+
+.navbar-nav .nav-item .nav-link {
+    color: #252634;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: 500 !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #8DC63F;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #8DC63F;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #8DC63F;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #8DC63F;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#navbarNavDropdown {
+    margin-left: 145px;
+}
+
+#img-1 {
+    width: 200px;
+    height: 50px;
+}
+
+#Introduction-section {
+    margin-top: 70px;
+}
+
+#Introduction-section>p {
+    color: black;
+    font-size: 20px;
+    font-weight: 400 !important;
+}
+
+#Name>div>p {
     font-size: 14px;
+    color: #8A8C98;
 }
-.color{
-    background-color: #8DC63F;;
+
+#Founder-name>div>h4 {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 30px !important;
+}
+
+.Hello {
+    border: 3px solid red;
+}
+
+.color {
+    background-color: #8DC63F;
+    ;
     height: 1px;
     width: 90px;
     border: 1px solid #8DC63F;
     border-radius: 10px;
 }
-.main{
+
+#WHOWEARE {
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
-.main>h3{
-    font-size: 21px;
-    color:#252634;
+
+#WHOWEARE>h4 {
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
 }
-.main-1{
+
+#img-2 {
+    width: 280px;
+    height: 310px;
+}
+
+#Paragraph-Section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
 }
-#img-1{
-    width: 35%;
-    height: 40vh;
+
+.hr {
+    margin-left: 25%;
+    width: 50%;
 }
-.hr{
+
+.color-2 {
+    background-color: #8DC63F;
+    ;
+    height: 1px;
+    width: 60px;
+    border: 1px solid #8DC63F;
+    border-radius: 1px;
+    margin-left: 65px;
+}
+
+.Span-1 {
+    font-size: 36px;
+    color: #8A8c98;
+}
+
+#Span {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  
-}
-.col{
-    width: 25%;
-}
-#Column{
-    width: 80%;
-}
-.Span{
-    font-size: 36px;
-    color: #8A8c98;
     font-weight: 600;
+
 }
-.Span-1{
-    font-size: 14px;
-    color: #252634;
-    font-weight: 700;
-    width: 80px;
-}
-.Span-1:hover{
-    color:#8DC63F;
-}
-.color-1{
-    background-color: #8DC63F;;
-    height: 1px;
-    width: 70px;
-    border-radius: 10px;
-}
-.Display{
-    display: flex;
-    flex-direction: column;
-    padding-top: 15px;
-}
-.M{
-    display: flex;
-    flex-direction: row;
-    padding: 00px;
-  
-}
-.Span-2 {
-    text-align: justify;
-  }
-.Part{
-    padding-left: 130px;
+
+#Para-1 {
+    margin-left: 15px;
 }
 
 .slider-container {
     width: 80%;
     overflow: hidden;
-    padding: 20px 00px 20px 00px; 
+    padding: 20px 00px 20px 00px;
     width: 65%;
 
-  }
-  
-  .slider {
+}
+
+.slider {
     position: relative;
     width: 100%;
-  }
-  
-  .slider-inner {     
+}
+
+.slider-inner {
     display: flex;
     transition: transform 0.3s ease;
     height: 25vh;
-    width: 100%;     
-  }
-  
-  .slider img {
-    width: 33.33%; /* Each image occupies one-third of the slider container */
+    width: 100%;
+}
+
+.slider img {
+    width: 33.33%;
+    /* Each image occupies one-third of the slider container */
     height: auto;
-  }
-  .img{
+}
+
+.img {
     border: 1px solid #8A8C98;
     margin-left: 10px;
-  }
-  #Slider-sec{
+}
+
+#Slider-sec {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
-
-
-
-
-  @media only screen and (max-width: 600px) {
-  }
-  
+}
+#Hello{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
