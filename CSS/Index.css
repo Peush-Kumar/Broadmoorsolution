@@ -132,7 +132,6 @@
     width: 60px;
     border: 1px solid #8DC63F;
     border-radius: 1px;
-    margin-left: 65px;
 }
 
 .Span-1 {
@@ -140,13 +139,10 @@
     color: #8A8c98;
 }
 
-#Span {
+.Span {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    font-weight: 600;
-
 }
 
 #Para-1 {
@@ -189,9 +185,38 @@
     flex-direction: row;
     justify-content: center;
 }
-#Hello{
+
+.Span-1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#Alignment {
+    text-align: left;
+}
+
+#Alignment-2 {
+    text-align: left;
+}
+
+#Alignment-3 {
+    text-align: left;
+}
+
+#Alignment-4 {
+    text-align: left;
+}
+
+.one {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+}
+
+.P>p {
+    font-size: 15px;
+    color: black;
+}
+
+.Span-2 {
+    font-weight: 700;
 }
