@@ -1,3 +1,54 @@
-.Client-Section{
-    padding: 100px 00px 00px 100px;
+.Shareclass{
+    padding-left: 130px;
+}
+#row{
+    margin: 00px;
+    padding: 00px;
+}
+#Clientandpartners{
+    margin-top: 100px;
+}
+#Clientandpartners>div>p{
+    color: #8A8C98;
+    font-size: 15px;
+}
+.slider-container {
+    width: 80%;
+    overflow: hidden;
+    padding: 20px 00px 20px 00px;
+    width: 100%;
+
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+}
+
+.slider-inner {
+    display: flex;
+    transition: transform 0.3s ease;
+    height: 25vh;
+    width: 100%;
+}
+
+.slider img {
+    width: 33.33%;
+    /* Each image occupies one-third of the slider container */
+    height: auto;
+}
+
+.img {
+    border: 1px solid #bbbbbb;
+    margin-left: 10px;
+}
+
+#Slider-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 00px 60px 00px 60px;
+}
+#SliderSection{
+    margin-top: 40px;
 }

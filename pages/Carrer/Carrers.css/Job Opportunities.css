@@ -1,35 +1,49 @@
-#Job-opportunities-Section{
-    padding: 50px 100px 00px 100px;
+.Shareclass{
+    padding-left: 110px;
 }
-#Section-1{
-    display: flex;
-    flex-direction: column;
+#Job-Section{
+    margin-top: 30px;
 }
-#Paragraph-1{
+#Jobpart01>p{
     font-size: 24px;
-    color: #252634;
 }
-#Paragraph-2{
+#Jobpart01>span{
     color: #8A8C98;
 }
-#Main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 .Card{
-    border: 1px solid transparent;
-    border: 10px;
-    padding: 20px;
-    background-color: #f8f8f8;
+    background-color: #f8f8f8 ;
+    width: 100%;
+    margin-top: 70px;
+    border: 1px solid #f8f8f8;
+    border-radius: 10px;
 }
-.Padding>p{
-    padding-left: 30px;
-    color:  #8A8C98;
+.hr {
+    margin-top: 50px;
+    color: #8A8C98;
 }
-.Card>h3,h6,h5{
+.Card>h3{
+    padding: 10px 00px 00px 30px;
     color: #666666;
 }
-.Padding>span{
-    color:  #8A8C98;
+.Card>h6{
+    padding: 10px 00px 00px 25px;
+    color: #666666;
+}
+.Card>p{
+    padding: 10px 00px 00px 50px;
+    color: #8A8C98;
+    display: inline-block;
+    margin: 00px;
+}
+.Card>span{
+    padding: 10px 00px 10px 25px;
+    color: #8A8C98;
+
+}
+.Card>p::before {
+    content: '\2022';
+    margin-right: 5px;
+}
+#Job{
+    margin-bottom: -30px;
 }

@@ -1,8 +1,11 @@
-#Work-culture{
-    padding: 50px 100px 00px 100px;
+.Shareclass{
+    padding-left: 110px;
 }
-#Work-culture>p{
+#WorkCulture{
+    margin-top: 70px;
+}
+#WorkCulture>div>p{
     color: #8A8C98;
-    font-size: 14px;
     line-height: 2;
+    font-size: 15px;
 }

@@ -1,23 +1,23 @@
-#Value-Section{
-    padding: 100px 100px 00px 100px;
-}
-.Paragraph-1-1>h2{
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+.ourvaluespan {
     color: #62646C;
     font-weight: 700;
+
 }
-.img-2{
-    width: 42%;
-    height: 35vh;
+
+.ourvaluespan::before {
+    content: '\2022';
+    margin-right: 5px;
 }
-.img-2>img{
-    width: 100%;
-    height: 100%;
-   
+
+#OurValue {
+    margin-top: 80px;
 }
-.Paragraph-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.ourvaluepara{
+    color: #8A8C98;
+    font-size: 15px;
+    line-height: 2;
+}
+#Photo{
+    width: 90%;
+    height: 250px;
 }

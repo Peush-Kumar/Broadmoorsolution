@@ -1,24 +1,83 @@
-#Mission{
-    margin: 100px 00px 00px 100px ;
+#Content-Section{
+    margin-top: 80px;
 }
-#Mission>p>span{
+#Content-Section>span>b{
+    color: #252635;
     font-weight: 700;
-    color: #252634;
-    font-size: 14px;
-
+    font-size: 15px;
+    line-height: 3;
 }
-#Mission>p{
+#Content-Section>span{
     color: #8A8C98;
+    font-size: 15px;
 }
-#Mission-2>div>h1>i{
-    text-transform: uppercase;
-    font-size: 14px;
+i{
     color: #8A8C98;
-
+    font-weight: 700;
 }
-#Mission-2>div{
+#Italic{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 15px;
+}
+#Accordian{
+    margin-top: 35px;
+}
+#Accordian-1>button>span{
+    margin-left: 15px;
+    font-weight: 700;
+}
+#Display{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Photo-2{
+    width: 200px;
+    height: 230px;
+    margin-left: 20px;
+}
+.AccordianHeading{
+    color: #252634;
+    font-size: 25px;
+}
+.AccordianParagraph{
+    color: #8A8C98;
+    font-size: 15px;
+}
+#hello{
+    background-color: #eaeaea;
+}
+#Accordian-2>button>span{
+    margin-left: 15px;
+    font-weight: 700;
+}
+#Display-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Accordian-3>button>span{
+    margin-left: 15px;
+    font-weight: 700;
+}
+#Display-3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Accordian-4>button>span{
+    margin-left: 15px;
+    font-weight: 700;
+}
+#Display-4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

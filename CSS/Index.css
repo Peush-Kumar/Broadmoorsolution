@@ -34,6 +34,9 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-weight: 500 !important;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -42,6 +45,7 @@
 
 .dropdown-menu .dropdown-item:hover {
     color: #8DC63F;
+    background-color: transparent;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -60,9 +64,9 @@
     margin-left: 145px;
 }
 
-#img-1 {
+#img {
     width: 200px;
-    height: 50px;
+    height: 42px;
 }
 
 #Introduction-section {
@@ -85,10 +89,6 @@
     font-size: 30px !important;
 }
 
-.Hello {
-    border: 3px solid red;
-}
-
 .color {
     background-color: #8DC63F;
     ;
@@ -102,7 +102,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 #WHOWEARE>h4 {
@@ -121,8 +120,9 @@
 }
 
 .hr {
-    margin-left: 25%;
-    width: 50%;
+    margin-top: 50px;
+    margin-left: 20%;
+    width: 60%;
 }
 
 .color-2 {
@@ -220,3 +220,81 @@
 .Span-2 {
     font-weight: 700;
 }
+#Active{
+    color: #8DC63F;
+}
+#column{
+    margin: 00px;
+    padding: 00px;
+}
+#Footer-Section{
+    background-color:#252634;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Color-Section{
+    width: 100%;
+    height: 5px;
+    background-color: #8DC63F;
+    margin-top: 70px;
+}
+.main-Part{
+    height: 60vh;
+    width: 45%;
+    margin-top: 30px;
+}
+.main-Part>#Part-1{
+    text-align: center;
+    line-height: 2;
+}
+.main-Part>#Part-1>b{
+    color: white;
+    font-size: 15px;
+}
+.main-Part>#Part-1>img{
+    width: 22px;
+}
+.main-Part>#Part-1>span{
+    color: white;
+    font-size: 15px;
+}
+#Part-2{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#Part-2>#One>span{
+    padding-top: 20px;
+    color: white;
+    line-height: 2;
+}
+#Part-2>#One{
+    height: 15vh;
+    
+}
+#Two>img{
+    width: 20px;
+}
+#Two>span{
+    color: white;
+    font-size: 15px;
+}
+#Three>span{
+    color: white;
+    line-height: 2;
+}
+#Copyright>p{
+    color: #8A8C98;
+    font-size: 14px;
+    margin-left: 50px;
+}
+#Copyright>p>a{
+    text-decoration: none;
+    color: #8DC63F;
+}
+  

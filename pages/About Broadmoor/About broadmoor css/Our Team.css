@@ -1,42 +1,62 @@
-
-#Team-Section{
-    padding: 100px 100px 00px 100px;
-}
-.color{
-    background-color: #8DC63F;;
+.color {
+    background-color: #8DC63F;
+    ;
     height: 1px;
     width: 90px;
     border: 1px solid #8DC63F;
     border-radius: 10px;
 }
-.main{
+
+#Principals {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    margin-top: 50px;
 }
-.main>h3{
-    text-transform: uppercase;
-    font-size: 21px;
-    font-weight: 700;
-    color: #252634;
-    
+
+#Principals>h4 {
+    font-weight: 600;
 }
-.Paragraph{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-}
-.Paragraph>div>h2{
-    font-size: 14px;
+
+.principalspan {
     color: #62646C;
-}.Paragraph>div>p{
+    font-weight: 700;
+}
+
+.principalbio {
+    color: #8A8C98;
+    line-height: 2;
+    font-size: 15px;
+}
+
+#team-1 {
+    margin-top: 70px;
+}
+.Photo{
+    width: 120px;
+    height: 120px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+}
+#team-2{
+    margin-top: 60px;
+}
+.hr {
+    margin-top: 50px;
     color: #8A8C98;
 }
-.Paragraph>img{
-    width: 13%;
-    height: 20vh;
-    border: 1px solid transparent;
-    border-radius: 100%;
+#team-3{
+    margin-top: 70px;
+}
+#team-4{
+    margin-top: 70px;
+}
+#team-5{
+    margin-top: 70px;
+}
+#team-6{
+    margin-top: 70px;
+}
+#team-7{
+    margin-top: 70px;
 }

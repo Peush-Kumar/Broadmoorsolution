@@ -1,187 +1,238 @@
-#Background-color{
+/* Navbar CSS starts */
+#Navbar {
+    padding: 25px 20px 20px 25px;
+    background-color: none !important;
+    background: none !important;
+    outline: none !important;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #252634;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: 500 !important;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #8DC63F;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #8DC63F;
+    background-color: transparent;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #8DC63F;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #8DC63F;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#navbarNavDropdown {
+    margin-left: 145px;
+}
+
+#img {
+    width: 200px;
+    height: 42px;
+}
+
+#Active {
+    color: #8DC63F;
+}
+
+#column{
+    margin: 00px;
+    padding: 00px;
+}
+
+/* Navbar CSS ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Introduction CSS starts */
+#Link-1 {
     background-color: #252634;
     height: 7vh;
-    width: 100%;
+    text-align: right;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: right;
 }
-.img{
-    background-color: transparent;
-    transition: filter 0.3s ease;
+
+.img-1 {
+    height: 24px;
+    width: 24px;
+
 }
-.img:hover{
-    background-color: #8DC63F;
-    color: #8DC63F ;
+
+.img-2 {
+    height: 22px;
+    width: 22px;
+    /* margin-right: 50px; */
 }
-#Sec-1{
-   padding: 00px;
-   position: relative;
+
+#Intro-Section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Images/Image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    height: 26vh;
 }
-#Sec-1>div>img{
-    width: 100%;
-    height: 30vh;
-    position: relative;
-}
-#Heading{
-    height: 30vh;
-    font-size: 36px;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    position: absolute;
-    top: 35%;
-    left: 39%;
+
+#Intro-Section>h1 {
     color: white;
 }
-#Sec-2{
-    background-color: #eaeaea;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+#Extra-padding {
+    padding: 00px;
 }
-.share{
-    display: flex;
-    flex-direction: row;
-    padding: 15px;     
-    margin-left: 80px;
-    font-size: 13px;
-    font-weight: 500;
+
+#Extra-padding-1 {
+    padding: 00px;
+}
+
+#VisibleBar {
+    background-color: #eaeaea;
+    padding: 10px 00px 10px 100px;
+}
+
+#VisibleBar>span {
+    font-size: 14px;
+    font-weight: 700;
     color: #8A8C98;
 }
-#Footer-Section{
-    background-color:#252634;
-    height: 30vh;
-    width: 100%;
+
+#Share {
+    margin-left: 540px;
+    /* margin-left: 650px; */
 }
-.Color-Section{
+
+/* Introduction CSS Starts */
+
+
+
+
+
+
+
+
+
+
+/* Footer CSS Starts */
+#Footer-Section {
+    background-color: #252634;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Color-Section {
     width: 100%;
     height: 5px;
     background-color: #8DC63F;
-    margin-top: 50px;
+    margin-top: 70px;
 }
-#Footer-Section{
-    height: 70vh;
-    width: 100%;
+
+.main-Part {
+    height: 60vh;
+    width: 45%;
+    margin-top: 30px;
 }
-#Footer-Section>img{
-    color:#8DC63F ;
+
+.main-Part>#Part-1 {
+    text-align: center;
+    line-height: 2;
 }
-.Footer-Sec-1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    
-}
-.Footer-Sec-1>b{
-    font-size: 14px;
+
+.main-Part>#Part-1>b {
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
-.Footer-Sec-2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 3vh;
-    margin-top: 12px;
-   
-}
-.Footer-Sec-2>img{
-    width: 20px;
-}
-.Footer-Sec-2>span{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-}
-.Footer-Sec-3{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 3vh;
-    margin-top: 8px;
-}
-.Footer-Sec-3>img{
-    width: 20px;
-}
-.Footer-Sec-3>span{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-}
-#Address-Section{
-    height: 25vh;
-    position: relative;
-}
-#Address-Section-1{
-    display: flex;
-    flex-direction: column;
-    margin-left: 30%;
-    width: 20%;
-}
-#Address-Section-1>h6{
-    color: white;
-    font-weight: 400;
-    font-size: 14px;
-}
-#Address-Section-2>img{
+
+.main-Part>#Part-1>img {
     width: 22px;
 }
-#Address-Section-2>span{
+
+.main-Part>#Part-1>span {
     color: white;
+    font-size: 15px;
 }
-#Address-Section-2{
-    margin-left: 30%;
-    width: 13%;
-    position: absolute;
-    top: 30px;
-    left: 20%;
-}
-#Address-Section-3{
-    display: flex;
-    flex-direction: column;
-   margin-left: 30%;
-   width: 20%;
-   position: absolute;
-   left: 33%;
-   bottom: 25%;
-}
-#Address-Section-3>h6{
-    font-size: 14px;
-    color: white;
-    font-weight: 400;
-}
-hr{
-    color: #8A8C98;
-    width: 50%;
-    height: 30px;
-}
-#Line{
+
+#Part-2 {
+    width: 40%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
 }
-#Copyright{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 35px;
+
+#Part-2>#One>span {
+    padding-top: 20px;
+    color: white;
+    line-height: 2;
+}
+
+#Part-2>#One {
+    height: 15vh;
 
 }
-#Copyright>h6{
+
+#Two>img {
+    width: 20px;
+}
+
+#Two>span {
     color: white;
-    font-size: 12px;
+    font-size: 15px;
+}
+
+#Three>span {
+    color: white;
+    line-height: 2;
+}
+
+#Copyright>p {
     color: #8A8C98;
-   
+    font-size: 14px;
+    margin-left: 50px;
 }
-#Page{
+
+#Copyright>p>a {
     text-decoration: none;
-    color: #8DC63F ;  
+    color: #8DC63F;
 }
+
+#Page {
+    text-decoration: none;
+    color: #8DC63F;
+}
+
+/* Footer CSS ends */

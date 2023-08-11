@@ -1,48 +1,38 @@
-#Pargraph-Section{
-    padding: 50px 100px 00px 100px;
+.Shareclass{
+    padding-left: 65%;
 }
-#Pargraph-Section>p{
-   font-size: 14px;
+#row{
+    margin: 00px;
+    padding: 00px;
+}
+#OurExpertise{
+    margin-top: 100px;
+}
+#OurExpertise>div>p{
     color: #8A8C98;
-    line-height: 2;
 }
-.Color-Section{
-    background-color: #8DC63F;;
-    height: 100px;
-    width: 90px;
-    border: 1px solid #8DC63F;
-    border-radius: 10px;
-}
-#Color{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.color{
-    background-color: #8DC63F;;
+.color {
+    background-color: #8DC63F;
+    ;
     height: 1px;
     width: 90px;
     border: 1px solid #8DC63F;
     border-radius: 10px;
 }
-#bar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+#ImageSection{
+    margin-top: 50px;
+    padding: 00px;
 }
-.img-1{
-    width: 50%;
-    padding: 0px;
+#ImageSection>div>img{
+    width: 100%;
+    height: 100%;    
 }
-.img-1:hover{
-    color: white;
+#ImageSectionpart01{
+    padding: 00px;
+    margin: 00px;
 }
-
-
-  
-  
-  
-  
+#ImageSectionpart02{
+    padding: 00px;
+    margin: 00px;
+}
   

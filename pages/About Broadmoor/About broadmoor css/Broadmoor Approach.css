@@ -1,53 +1,51 @@
-.Approach-Section{
-    padding: 100px 100px 00px 100px;
-}
-.color{
-    background-color: #8DC63F;;
+.color {
+    background-color: #8DC63F;
+    ;
     height: 1px;
     width: 90px;
     border: 1px solid #8DC63F;
     border-radius: 10px;
 }
-.Image-Secton{
+
+#Principals {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.Image-Secton>h3{
-    text-transform: uppercase;
-    font-size: 21px;
+#Principals>h4{
     font-weight: 700;
+    font-size: 21px;
     color: #252634;
 }
-.Photo{
-    width: 40%;
-    height: 40vh;
-   
+#BroadmoorApproach{
+    margin-top: 100px;
 }
-.Paragraph{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.Paragraph>div>p{
+#sec-one>span{
     color: #8A8C98;
     line-height: 2;
 }
-.Points{
-    color: #8A8C98;
-    padding-left: 30px;
-    
+#Photo{
+    width: 300px;
+    height: 250px;
 }
-.Points>h3{
-    font-size: 14px;
+.skill-2{
     line-height: 2;
+    color: #62646C;
+    font-weight: 700;
 }
-.H2{
-    color: #62646c;
-    font-size: 18px;
+.skill-2>b{
+    font-weight: 400;
+    margin-left: 15px;
 }
-.H3{
-    color: #8A8C98;
-    font-size: 21px;
-   
+.skill::before {
+    content: '\2022';
+    margin-right: 5px;
+}
+.skill-2::before {
+    content: '\2022';
+    margin-right: 5px;
+}
+.skill-2>b::before {
+    content: '\2022';
+    margin-right: 5px;
 }
