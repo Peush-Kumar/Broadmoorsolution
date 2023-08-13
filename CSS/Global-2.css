@@ -236,3 +236,26 @@
 }
 
 /* Footer CSS ends */
+
+
+@media only screen and (max-width: 768px) {
+    #Share {
+        margin-left: 00px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    #Share {
+        margin-left: 00px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #Footer-Section{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        margin-right: 00px;
+        /* flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+    }
+}

@@ -11,21 +11,23 @@
 #OurExpertise>div>p{
     color: #8A8C98;
 }
+#Middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .color {
-    background-color: #8DC63F;
-    ;
+    background-color: #8DC63F; 
     height: 1px;
     width: 90px;
     border: 1px solid #8DC63F;
     border-radius: 10px;
 }
-#ImageSection{
-    margin-top: 50px;
-    padding: 00px;
-}
-#ImageSection>div>img{
+
+#ImageSection>div>div>img{
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
 #ImageSectionpart01{
     padding: 00px;
@@ -35,4 +37,166 @@
     padding: 00px;
     margin: 00px;
 }
+#ImageSectionpart03{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSectionpart04{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSectionpart05{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSectionpart06{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSectionpart07{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSectionpart08{
+    padding: 00px;
+    margin: 00px;
+}
+.Imagephoto{
+    width: 100%;
+    height: 70%;
+}
+#ImageSection{
+   margin-top: 50px;
+}
+/* #ImageSection02{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSection03{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSection04{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSection05{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSection06{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSection07{
+    padding: 00px;
+    margin: 00px;
+}
+#ImageSection08{
+    padding: 00px;
+    margin: 00px;
+} */
+.Hover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 00px;
+    padding: 00px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transform: translate(0, 0);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
   
+
+}
+
+.Hover:hover .image {
+    opacity: 0.3;
+}
+
+.Hover:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    position: relative;
+}
+
+.Align {
+    position: absolute;
+    top: 33px;
+    right: 162px;
+    margin: 50px;
+    width: 350px;
+    font-size: 28px;
+    /* border: 3px solid red; */
+
+}
+.Align-2{
+    position: absolute;
+    top: 130px;
+    right: 58px;
+    text-align: justify;
+    width: 450px;
+    font-size: 16px;
+}
+#Custom{
+    position: absolute;
+    right: 120px;
+}
+#Custom-2{
+    position: absolute;
+    right: 190px;
+}
+#Custom-3{
+    position: absolute;
+    right: 170px;
+}
+#Custom-4{
+    position: absolute;
+    right: 58px;
+    width: 450px;
+}
+#Custom-5{
+    position: absolute;
+    right: 105px;
+    width: 450px;
+}
+#Custom-6{
+    position: absolute;
+    right: 10px;
+    width: 490px;
+}
+#Custom-7{
+   position: absolute;
+   left: 1px;
+    width: 420px;
+}
+#Custom-8{
+    position: absolute;
+    left: 0px;
+    width: 420px;
+}

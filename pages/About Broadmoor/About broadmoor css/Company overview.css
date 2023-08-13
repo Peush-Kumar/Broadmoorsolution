@@ -33,3 +33,14 @@ b{
     color: #252634;
     font-size: 15px;
 }
+
+
+
+@media only screen and (max-width: 992px) {
+    #Mediaquery{
+        margin-top: 00px;
+    }
+}
+@media only screen and (max-width: 576px) {
+ 
+}

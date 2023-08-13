@@ -113,12 +113,6 @@
     height: 310px;
 }
 
-#Paragraph-Section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .hr {
     margin-top: 50px;
     margin-left: 20%;
@@ -193,18 +187,22 @@
 
 #Alignment {
     text-align: left;
+    /* border: 3px solid red; */
 }
 
 #Alignment-2 {
     text-align: left;
+    /* border: 3px solid red; */
 }
 
 #Alignment-3 {
     text-align: left;
+    /* border: 3px solid red; */
 }
 
 #Alignment-4 {
     text-align: left;
+    /* border: 3px solid red; */
 }
 
 .one {
@@ -297,4 +295,19 @@
     text-decoration: none;
     color: #8DC63F;
 }
+@media only screen and (min-width: 992px) {
+    #MediaQuery{
+        margin-left: 70px;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    #Image-Section {
+        height: 50vh;
+        background-size: 100% 100%;
+
+    }
+    #Introduction-section {
+        margin-right: 00px;
+    }
+  }
   
